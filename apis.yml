@@ -1,8 +1,25 @@
 aid: bharat-matrimony
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bharat-matrimony.png
 name: Bharat Matrimony
-description: 'Bharat Matrimony is a company surfaced as a portfolio company of bessemer-venture-partners,
-  canaan-partners and added to the API Evangelist network as a stub for enrichment. Sector: consumer.
-  This profile is a lead awaiting the enrichment pipeline.'
+description: 'Bharat Matrimony is one of India''s largest online matrimonial and
+  matchmaking services and a flagship brand of Matrimony.com Ltd, a publicly listed
+  Indian consumer-internet company. It helps prospective brides and grooms find life
+  partners through profile creation, community- and region-specific matrimony sites,
+  search and matching, messaging, and premium assisted-matchmaking and wedding services.
+  Added to the API Evangelist network via VC-portfolio discovery (Bessemer Venture
+  Partners, Canaan Partners); no public developer API program or OpenAPI surface was
+  found at the time of enrichment. Sector: consumer.'
 url: https://raw.githubusercontent.com/api-evangelist/bharat-matrimony/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer
+- Matrimony
+- Matchmaking
+- Dating
+- Relationships
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/bharat-matrimony-domain-security.yml
 - type: Website
   url: https://www.bharatmatrimony.in/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
